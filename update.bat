@@ -1,4 +1,3 @@
-
 echo UPDATING FILES 
 git add .
 git commit -m "update"
