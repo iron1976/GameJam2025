@@ -1,2 +1,2 @@
-# GameJam2025-TowerDefence
+# GameJam2025
 Tedu Jam 2025
