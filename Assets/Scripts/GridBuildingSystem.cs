@@ -11,6 +11,8 @@ public class GridBuildingSystem : MonoBehaviour
     public Tilemap MainTilemap;
     public Tilemap TempTilemap;          
 
+    public static Dictionary<TileType, TileBase> tileBase = new Dictionary<TileType, TileBase>();
+
     #region Unity Methods
     void Awake(){
         current = this;
@@ -35,4 +37,11 @@ public class GridBuildingSystem : MonoBehaviour
     #region Building Placement
 
     #endregion
+
+    public enum TileType{
+        Empty,
+        White,
+        Green,
+        Red
+    }
 }
