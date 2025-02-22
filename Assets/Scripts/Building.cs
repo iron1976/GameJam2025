@@ -1,0 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Building : MonoBehaviour
+{
+    
+    void Start()
+    {
+        
+    }
+
+    #region Build Methods
+    // All the placement methods are here
+
+    #endregion
+}
