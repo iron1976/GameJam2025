@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastScriptReload.Editor", "FastScriptReload.Editor.csproj", "{FCBCDDFD-F387-FBFC-3D8E-9A2A9E6ECC85}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{6C14E1F0-470D-1F2B-7272-5363AB683B32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastScriptReload.Runtime", "FastScriptReload.Runtime.csproj", "{072BD309-F65B-C922-00A1-0FC6B9A50FD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCBCDDFD-F387-FBFC-3D8E-9A2A9E6ECC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBCDDFD-F387-FBFC-3D8E-9A2A9E6ECC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBCDDFD-F387-FBFC-3D8E-9A2A9E6ECC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBCDDFD-F387-FBFC-3D8E-9A2A9E6ECC85}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6C14E1F0-470D-1F2B-7272-5363AB683B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6C14E1F0-470D-1F2B-7272-5363AB683B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C14E1F0-470D-1F2B-7272-5363AB683B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C14E1F0-470D-1F2B-7272-5363AB683B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{072BD309-F65B-C922-00A1-0FC6B9A50FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{072BD309-F65B-C922-00A1-0FC6B9A50FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{072BD309-F65B-C922-00A1-0FC6B9A50FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{072BD309-F65B-C922-00A1-0FC6B9A50FD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
