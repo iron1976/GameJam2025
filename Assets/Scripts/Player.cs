@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
         
     } 
     public void SetTargetPosition(Vector2 Position)
-    {
+    {                                                                                                                   
         TargetPosition = Position;
         this.Rigid.velocity = Vector2.zero;
 
@@ -43,8 +43,7 @@ public class Player : MonoBehaviour
     }
     private void FixedUpdate()
     {
-
-
+        
         this.Rigid.AddForce((TargetPosition - (Vector2)this.transform.position).normalized*1);
         if (Vector2.Distance((Vector2)this.transform.position, TargetPosition) < 0.2f)
         {
